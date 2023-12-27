@@ -66,4 +66,6 @@ jobs:
         with:
           app-name: 'careerappv2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1FF4805E5662445B9C7E0E309CD24854 }}
+          username: ${{ secrets.USER_NAME }}
+          password: ${{ secrets.PASSWORD }}
+          # publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1FF4805E5662445B9C7E0E309CD24854 }}
